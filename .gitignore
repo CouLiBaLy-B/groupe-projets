@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.env
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
