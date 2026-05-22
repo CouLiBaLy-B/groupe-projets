@@ -62,3 +62,8 @@ def get_progress_color(progress):
 # Footer
 st.markdown("---")
 st.caption("Groupe Projets App - Built with Streamlit")
+
+@app.get('/health')
+def health_check():
+    return {'status': 'ok'}
+
